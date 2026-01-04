@@ -258,9 +258,8 @@ h1, h2, h3, h4, h5, h6 {
    ======================================== */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, rgba(0, 119, 182, 0.95), rgba(3, 4, 94, 0.9)),
-                url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&h=1080&fit=crop') center/cover;
-    display: flex;
+    background: linear-gradient(135deg, rgb(0 119 182 / 48%), rgba(3, 4, 94, 0.9)), url(https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&h=1080&fit=crop) center / cover;
+      display: flex;
     align-items: center;
     position: relative;
     padding-top: 80px;
