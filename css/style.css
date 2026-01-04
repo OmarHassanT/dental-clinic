@@ -28,6 +28,31 @@ body {
     overflow-x: hidden;
 }
 
+/* RTL Support */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .service-link i,
+[dir="rtl"] .about-feature i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+[dir="rtl"] .logo {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .about-wrapper {
+    direction: rtl;
+}
+
+[dir="rtl"] .footer-links a {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -234,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
     min-height: 100vh;
     background: linear-gradient(135deg, rgba(0, 119, 182, 0.95), rgba(3, 4, 94, 0.9)),
-                url('https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1920&h=1080&fit=crop') center/cover;
+                url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&h=1080&fit=crop') center/cover;
     display: flex;
     align-items: center;
     position: relative;
